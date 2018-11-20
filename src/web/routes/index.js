@@ -9,6 +9,7 @@ import TemplateSidebar from '../components/TemplateSidebar';
 import Home from '../components/Home';
 
 import RecipesContainer from '../../containers/Recipes';
+import TodoListsContainer from '../../containers/TodoLists';
 import RecipesComponent from '../components/Recipes';
 import RecipeViewComponent from '../components/Recipe';
 
@@ -74,6 +75,14 @@ const Index = () => (
       render={props => (
         <TemplateSidebar>
           <RecipesContainer {...props} Layout={RecipesComponent} />
+        </TemplateSidebar>
+      )}
+    />
+     <Route
+      path="/lists"
+      render={props => (
+        <TemplateSidebar>
+          <TodoListsContainer {...props} Layout={RecipesComponent} />
         </TemplateSidebar>
       )}
     />

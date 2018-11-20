@@ -1,7 +1,7 @@
 {
   "expo": {
     "sdkVersion": "29.0.0",
-    "name": "React Native Starter Kit",
+    "name": "Life organizer",
     "slug": "react-native-starter-kit",
     "icon": "src/images/app-icon.png",
     "privacy": "public"
